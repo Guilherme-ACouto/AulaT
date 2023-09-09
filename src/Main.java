@@ -1,10 +1,14 @@
 public class Main {
+    private static void sayHelloManytimes(int times) {
+        for (int i = 0; i < times; i++) {
+            sayHello();
+        }
+    }
     private static void sayHello() {
         System.out.println("Hello world!");
-        System.out.println("Olá mundo!");
 
     }
     public static void main(String[] args) {
-        sayHello();
+        sayHelloManytimes(7);
     }
 }
