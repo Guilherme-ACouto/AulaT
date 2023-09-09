@@ -5,6 +5,7 @@ public class Main {
         }
     }
     private static void sayHello() {
+        System.out.println("==============");
         System.out.println("Hello world!");
 
     }
